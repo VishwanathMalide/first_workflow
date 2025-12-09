@@ -7,7 +7,7 @@ jobs:
         name: First job
         runs-on: ubantu-latest
         steps:
-            -name: Step One 
+            -name: Step One
              uses: actions/checkout@v4
             -name: Step Two
              run: env | sort
